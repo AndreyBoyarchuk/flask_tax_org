@@ -8,7 +8,7 @@ from revenue_report import RevenueReport
 
 app = Flask(__name__)
 
-
+app.secret_key = 'fdfdfdff'
 @app.route('/')
 @app.route("/choose_json", methods=["POST"])
 def choose_json():
